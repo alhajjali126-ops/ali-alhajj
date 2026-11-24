@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ALI AL-HAJJ - Backend Mastery Hub</title>
+<meta name="description" content="خارطة طريق وتتبع دراسة مسار Backend (PHP / Laravel / SQL) لمشروع التخرج">
+<meta name="theme-color" content="#0b0f17">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="icon.svg" alt="Logo" width="38" height="38">
+    <div>
+      <h1>ALI AL-HAJJ</h1>
+      <span>Backend Mastery Hub</span>
+    </div>
+  </div>
+  <div class="overall" aria-label="التقدم الكلي">
+    <div class="bar"><div class="fill" data-fill="overall"></div></div>
+    <b class="pct" data-pct="overall">0%</b>
+  </div>
+  <div class="actions">
+    <button id="installBtn" class="btn primary" hidden>تثبيت التطبيق</button>
+    <button id="resetBtn" class="btn ghost" title="تصفير التقدم">إعادة ضبط</button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav id="nav" class="nav" aria-label="المراحل"></nav>
+  <main id="view" class="view" tabindex="-1"></main>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="data-1.js"></script>
+<script src="data-2.js"></script>
+<script src="data-3.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

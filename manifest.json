@@ -1,0 +1,21 @@
+{
+  "name": "ALI AL-HAJJ - Backend Mastery Hub",
+  "short_name": "Backend Hub",
+  "description": "خارطة طريق وتتبع دراسة مسار Backend (PHP / Laravel / SQL) لمشروع التخرج",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
